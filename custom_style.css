@@ -1,0 +1,27 @@
+#header {
+	align-self: center;
+	background: #F2E2AC;
+	border: 1px solid green;
+	border-radius: 30px 30px 30px 30px;
+	text-align: center;
+}
+
+#infotable {
+	align-self: center;
+}
+
+#first {
+	background: red;
+}
+
+#second {
+	background: yellow;
+}
+
+#third {
+	background: green;
+}
+
+.name {
+	font-family: Arial;
+}
