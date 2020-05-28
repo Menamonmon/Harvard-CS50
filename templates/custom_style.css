@@ -1,0 +1,143 @@
+#header {
+	align-self: center;
+	background: #F2E2AC;
+	border: 1px solid green;
+	border-radius: 30px 30px 30px 30px;
+	text-align: center;
+}
+
+#infotable {
+	align-self: center;
+}
+
+#first {
+	background: red;
+}
+
+#second {
+	background: yellow;
+}
+
+#third {
+	background: green;
+}
+
+.name {
+	font-family: Arial;
+}
+
+input[name="password"] {
+	background: grey;
+}
+
+input[name="username"] {
+	background: lightgrey;
+}
+
+button[name="submit"] {
+	background-color: orange;
+}
+
+button[name="submit"]:hover {
+	background-color: red;
+}
+
+a[name="acad_prof_link"]::before {
+	content: "Click this: \2705";
+	font-weight: bold;
+}
+
+p[id="opening_par"]::selection {
+	color: lightblue;
+	background-color: black;
+}
+
+tr > th {
+	background-color: yellow;
+	color: red;
+}
+
+td + td {
+	background: grey;
+}
+
+.big_box {
+ 	display: flex;
+ 	flex-wrap: wrap;
+}
+
+.box {
+	font-size: 20px;
+	margin: 20px;
+	padding: 20px;
+	background: springgreen;
+	border: 2px black solid;
+	border-radius: 30px 30px 30px 30px;
+	width: 200px;
+}
+/*STYLING A GRID*/
+#grid {
+	display: grid;
+	background: yellow;
+	padding: 20px;
+	grid-column-gap: 10px; 
+	grid-row-gap: 10px;
+	grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+	background: red;
+	font-size: 30px;
+	padding: 20px;
+	border: 2px black solid;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.row > div {
+	display: inline-block;
+	border: 2px darkblue solid;
+	border-radius: 15px 15px 15px 15px;
+	background: lightblue;
+}
+
+.row > div::selection {
+	background-color: red;
+	color: white;
+}
+
+
+/*@media print {
+	form {
+		display: none;
+	}
+}
+
+@media (min-width: 700px) {
+	body {
+		background: blue;
+	}
+
+	h1[name="google"] {
+		content: "GISS";
+	}
+}
+
+@media (max-width: 699px) {
+	h1[name="google"] {
+		content: "Google is stupid";
+		background: yellow;
+	}
+	body {
+		background-color: red;
+	}
+}*/
+
+/*
+for selecting all the children we use a space between the father and the children 
+
+Ex. ol li (this selects all the items of the ordered list)
+
+For selecting direct children only we use the > operator 
+
+Ex. ol > li (this selects the direct children such that the styling does not apply to another list that is contianed within)
+*/
